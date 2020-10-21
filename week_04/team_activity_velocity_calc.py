@@ -29,12 +29,13 @@ C = 0.5
 
 c = (1 / 2) * p * A * C
 
-print(f"{c:.3f}")
+print(f"'C' is: {c:.3f}")
 
 # for t in range(470):
+# for t in range(500):
 #     """For the above inputs"""
 #     v = math.sqrt(m * g / c) * (1 - math.exp((-math.sqrt(m * g * c) / m) * t))
-#     print(f"Terminal velocity happens at {v} seconds")
+#     print(f"{t} - Terminal velocity happens at {v} seconds")
 
 for t in range(154):
     """For the above inputs"""
