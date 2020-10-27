@@ -3,6 +3,8 @@ Jacob Padgett
 W07 Checkpoint
 Bro Brian Wilson
 """
+
+
 d = "\n" * 2
 dd = "-" * 50
 
