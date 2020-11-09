@@ -80,12 +80,11 @@ def my_pic_func(img_b, img_g):
                     new_img_pixels[x, y] = img_b_pixels[x, y]
 
     # Save the image
-    # new_img.save(f"zzz_new_img.jpg")  # Uncomment this to save the file
-    new_img.show()
+    new_img.save(f"zzz_new_img.jpg")  # Uncomment this to save the file
+    # new_img.show()
 
     return
 
 
 # Call it
 my_pic_func(random.choice(background_images), random.choice(GreenScreen_Images))
-
